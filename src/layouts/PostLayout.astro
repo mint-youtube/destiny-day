@@ -1,0 +1,48 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import CoupangAd from "../components/CoupangAd.astro";
+import AliExpressAd from "../components/AliExpressAd.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  tags?: string[];
+  youtubeUrl?: string;
+  heroImage?: string;
+}
+
+const { title, description, pubDate, updatedDate, tags = [], youtubeUrl, heroImage } = Astro.props;
+const formattedDate = pubDate.toLocaleDateString("ko-KR", { year: "numeric", month: "long", day: "numeric" });
+---
+<BaseLayout title={title} description={description} ogImage={heroImage} pubDate={pubDate}>
+  <article class="prose mx-auto px-5 py-8 ">
+    <h1 class="font-heading mt-10 mb-4 leading-tight text-3xl md:text-4xl font-bold text-accent border-l-4 border-accent pl-4">{title}</h1>
+    <div class="text-muted text-sm mb-2 flex flex-wrap gap-x-3 gap-y-1 items-baseline">
+      <time datetime={pubDate.toISOString()}>{formattedDate}</time>
+      {updatedDate && (<span>· 수정 {updatedDate.toLocaleDateString("ko-KR")}</span>)}
+    </div>
+    {tags.length > 0 && (
+      <div class="flex flex-wrap gap-2 mb-6 mt-2">
+        {tags.map((t) => (
+          <a href={`/tags/${t}/`} class="text-xs px-3 py-1 rounded-full bg-hover text-muted hover:bg-accent hover:text-bg transition no-underline">#{t}</a>
+        ))}
+      </div>
+    )}
+    {heroImage && (
+      <img class="w-full aspect-video object-cover rounded-xl my-6 shadow-xl" src={heroImage} alt={title} />
+    )}
+    <CoupangAd />
+    <div class="post-body mt-6"><slot /></div>
+    <AliExpressAd />
+    {youtubeUrl && (
+      <div class="mt-12 p-6 rounded-xl bg-hover border-l-4 border-accent">
+        <p class="m-0 font-semibold">📺 영상으로 보기</p>
+        <a href={youtubeUrl} target="_blank" rel="noopener" class="text-base">{youtubeUrl}</a>
+      </div>
+    )}
+  </article>
+</BaseLayout>
+
+

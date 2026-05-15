@@ -1,0 +1,78 @@
+---
+import "../styles/global.css";
+import { CHANNEL } from "../data/channel";
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  pubDate?: Date;
+}
+
+const { title, description = CHANNEL.tagline, ogImage, pubDate } = Astro.props;
+const fullTitle = title ? `${title} | ${CHANNEL.name}` : CHANNEL.name;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href={canonicalURL} />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <meta property="og:type" content={pubDate ? "article" : "website"} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalURL} />
+  {ogImage && <meta property="og:image" content={ogImage} />}
+  {pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="alternate" type="application/rss+xml" title={CHANNEL.name} href="/rss.xml" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;700&family=Courier+Prime&display=swap">
+  
+</head>
+<body class="min-h-screen flex flex-col ">
+  <header class="border-b border-border border-b border-accent">
+    <div class="max-w-wide mx-auto px-5 py-5 flex items-center justify-between flex-wrap gap-3">
+      <a href="/" class="font-heading font-bold text-xl text-accent no-underline before:content-[var(--brand-emoji,'🌅')_]">{CHANNEL.name}</a>
+      <span class="font-mono text-xs tracking-wider text-muted uppercase">EXCAVATION №{new Date().getFullYear()}</span>
+    </div>
+    <nav class="max-w-wide mx-auto px-5 pb-3 flex gap-5"><a href="/" class="text-muted text-sm hover:text-accent">홈</a><a href="/tags/" class="text-muted text-sm hover:text-accent">유물분류</a><a href="/about/" class="text-muted text-sm hover:text-accent">소개</a></nav>
+  </header>
+  <main class="flex-1">
+    <slot />
+  </main>
+  <footer class="border-t border-border mt-auto bg-bg-secondary/30">
+    <div class="max-w-wide mx-auto px-5 py-10">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div>
+          <h4 class="font-heading text-base mb-2 text-fg">{CHANNEL.name}</h4>
+          <p class="text-sm text-muted">{CHANNEL.tagline}</p>
+        </div>
+        <div>
+          <h4 class="font-heading text-sm mb-2 text-fg">탐색</h4>
+          <ul class="space-y-1 text-sm">
+            <li><a href="/" class="text-muted hover:text-accent">홈</a></li>
+            <li><a href="/tags/" class="text-muted hover:text-accent">태그</a></li>
+            <li><a href="/about/" class="text-muted hover:text-accent">소개</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-heading text-sm mb-2 text-fg">구독</h4>
+          <ul class="space-y-1 text-sm">
+            <li><a href="/rss.xml" class="text-muted hover:text-accent">RSS 피드</a></li>
+            <li><a href="/sitemap-index.xml" class="text-muted hover:text-accent">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-border pt-5 text-center text-xs text-muted">
+        © {new Date().getFullYear()} {CHANNEL.name} · All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

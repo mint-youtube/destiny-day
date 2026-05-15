@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { CHANNEL } from "../data/channel";
+---
+<BaseLayout title="소개">
+  <article class="prose mx-auto px-5 py-12 max-w-prose">
+    <div class="text-center mb-8">
+      <div class="text-5xl mb-3">{CHANNEL.emoji}</div>
+      <h1 class="font-heading text-3xl md:text-4xl mb-2">{CHANNEL.name}</h1>
+      <p class="text-muted italic">{CHANNEL.tagline}</p>
+    </div>
+
+    <h2>이 블로그는</h2>
+    <p>
+      {CHANNEL.name}의 영상 콘텐츠를 텍스트로 다시 풀어내는 공간입니다.
+      유튜브에서 다루지 못한 배경, 추가 분석, 후속 사건까지 깊이 있게 담습니다.
+    </p>
+
+    <h2>업데이트</h2>
+    <p>매일 새 글이 올라옵니다. RSS 또는 유튜브 채널 구독으로 새 글 알림을 받으세요.</p>
+
+    <p class="mt-8 pt-6 border-t border-border text-sm text-muted text-center">
+      <a href="/" class="mr-3">홈으로</a>·
+      <a href="/tags/" class="mx-3">태그</a>·
+      <a href="/rss.xml" class="ml-3">RSS</a>
+    </p>
+  </article>
+</BaseLayout>

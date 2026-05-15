@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #13110D;
+    --bg-secondary: #1C1814;
+    --fg: #D8CFB8;
+    --muted: #909078;
+    --accent: #7A8E5C;
+    --accent2: #5A6E40;
+    --border: #2A2620;
+    --hover: #1E1A14;
+    --font-heading: 'Hahmlet', serif;
+    --font-body: 'Hahmlet', serif;
+    --font-mono: 'Courier Prime', monospace;
+  }
+  html, body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    line-height: 1.85;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; transition: color .2s ease, opacity .2s ease; }
+  a:hover { color: var(--accent2); opacity: 0.9; }
+}
+
+/* 광고 컴포넌트(.ad-coupang/.ad-aliexpress)는 컴포넌트 내부 인라인 스타일 사용 — 외부 wrapper 추가 X */
+
+
+/* Layout-specific signature */
+
+body { background-image: linear-gradient(rgba(122,142,92,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(122,142,92,0.05) 1px, transparent 1px); background-size: 50px 50px; }
+.prose h2::before { content: "▌ "; opacity: 0.6; }

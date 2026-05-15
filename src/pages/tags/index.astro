@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("posts");
+const tagMap = new Map<string, number>();
+for (const p of posts) {
+  for (const t of p.data.tags || []) {
+    tagMap.set(t, (tagMap.get(t) || 0) + 1);
+  }
+}
+const tags = [...tagMap.entries()].sort((a, b) => b[1] - a[1]);
+---
+<BaseLayout title="모든 태그">
+  <section class="max-w-prose mx-auto px-5 py-12">
+    <h1 class="font-heading text-3xl mb-2">모든 태그</h1>
+    <p class="text-muted mb-8">{tags.length}개 태그</p>
+    {tags.length === 0 && <p class="text-muted">태그가 아직 없습니다.</p>}
+    <div class="flex flex-wrap gap-3">
+      {tags.map(([t, n]) => (
+        <a href={`/tags/${t}/`} class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-hover border border-border text-fg font-heading no-underline transition hover:bg-accent hover:text-bg hover:border-accent">
+          <span>#{t}</span>
+          <span class="text-xs opacity-70">{n}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
