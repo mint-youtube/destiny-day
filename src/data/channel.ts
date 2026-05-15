@@ -4,6 +4,7 @@ export const CHANNEL = {
   emoji: "🌅",
   category: "다큐",
   tagline: "역사를 바꾼 24시간",
+  youtubeUrl: "https://youtube.com/channel/UCxQRl0eoy45gNu40qEoVmkA",
   layoutId: "archaeology-grid",
   isLight: false,
   tokens: {
