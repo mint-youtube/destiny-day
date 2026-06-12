@@ -5,7 +5,7 @@ pubDate: 2026-05-29T23:03:00+09:00
 author: ""
 category: ""
 tags: ["마틴 루서 킹", "1968년 4월 4일", "멤피스", "로레인 모텔", "산 정상 연설", "민권운동", "랠프 애버나시", "코레타 스콧 킹", "메이슨 템플", "운명의 하루"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=dVIaUOpm2C4"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-05-29-mlk-assassination-1968-04-04-memphis-24h/scene-2_img_2.png"
 draft: false
 ---
