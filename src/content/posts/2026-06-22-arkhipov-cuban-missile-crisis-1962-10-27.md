@@ -5,7 +5,7 @@ pubDate: 2026-06-22T19:10:00+09:00
 author: ""
 category: ""
 tags: ["쿠바 미사일 위기", "바실리 아르히포프", "B-59 잠수함", "핵전쟁 위기", "1962년 냉전", "핵어뢰", "케네디 흐루쇼프", "냉전 역사"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=zgu95MtKBY8"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-06-22-arkhipov-cuban-missile-crisis-1962-10-27/scene-2_img_2.png"
 draft: false
 ---
