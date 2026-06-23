@@ -5,7 +5,7 @@ pubDate: 2026-06-23T12:35:00+09:00
 author: ""
 category: ""
 tags: ["사라예보 암살", "1차 세계대전 원인", "프란츠 페르디난트", "가브릴로 프린치프", "청년 보스니아", "7월의 위기", "1914년 역사", "운명의 하루"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=LRd_Nk8_AKM"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-06-23-sarajevo-1914-06-28-assassination/scene-2_img_2.png"
 draft: false
 ---
