@@ -5,7 +5,7 @@ pubDate: 2026-06-30T21:51:00+09:00
 author: ""
 category: ""
 tags: ["퉁구스카", "퉁구스카 대폭발", "운명의 하루", "운석 충돌", "소행성", "공중 폭발", "과학 미스터리", "1908년", "시베리아", "지구 방어"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=tN2YfaAjd0w"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-06-30-tunguska-explosion-1908-06-30-morning/scene-2_img_2.png"
 draft: false
 ---
