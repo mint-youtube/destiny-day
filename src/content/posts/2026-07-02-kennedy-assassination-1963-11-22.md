@@ -5,7 +5,7 @@ pubDate: 2026-07-02T07:00:00+09:00
 author: ""
 category: ""
 tags: ["케네디 암살", "댈러스 1963", "딜리 플라자", "재커루더 필름", "케네디 6초", "목격자 증언", "역사 미스터리", "운명의 하루", "1963년 11월 22일", "단독범 논쟁"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=JglQhshKcQM"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-02-kennedy-assassination-1963-11-22/scene-2_img_2.png"
 draft: false
 ---
