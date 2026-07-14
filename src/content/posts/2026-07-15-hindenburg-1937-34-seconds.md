@@ -5,7 +5,7 @@ pubDate: 2026-07-15T08:53:00+09:00
 author: ""
 category: ""
 tags: ["힌덴부르크", "힌덴부르크 참사", "비행선 사고", "레이크허스트", "수소 비행선", "1937년 항공사고", "비행선 시대 종말", "힌덴부르크 생존자"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=fW5Uu0U2Lok"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-15-hindenburg-1937-34-seconds/scene-2_img_2.png"
 draft: false
 ---
