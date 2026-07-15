@@ -5,7 +5,7 @@ pubDate: 2026-07-16T08:23:00+09:00
 author: ""
 category: ""
 tags: ["허드슨강의 기적", "US 에어웨이즈 1549편", "설렌버거", "항공사고", "비상착륙", "208초", "155명 생존", "실화", "뉴욕 항공사고", "조류 충돌"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=nkq9jX4MRk0"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-16-hudson-miracle-2009-208-seconds/scene-2_img_2.png"
 draft: false
 ---
