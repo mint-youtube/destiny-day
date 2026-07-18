@@ -5,7 +5,7 @@ pubDate: 2026-07-18T18:20:00+09:00
 author: ""
 category: ""
 tags: ["칠레 광산 사고", "산호세 광산", "33명의 광부", "광산 붕괴 생존", "칠레 광부 구조", "코피아포 광산", "69일 생존 실화", "구조 캡슐 페닉스"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=4JP74IE5XXE"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-18-chile-mine-2010-33-survivors/scene-2_img_2.png"
 draft: false
 ---
