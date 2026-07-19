@@ -5,7 +5,7 @@ pubDate: 2026-07-19T16:20:00+09:00
 author: ""
 category: ""
 tags: ["유리 가가린", "보스토크 1호", "인류 최초 우주 비행", "가가린 108분", "우주 개발 역사", "냉전 우주 경쟁", "가가린 착륙 비밀", "우주 비행사"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=W6fy91ZoZmk"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-19-gagarin-vostok1-1961-108-minutes/scene-2_img_2.png"
 draft: false
 ---
