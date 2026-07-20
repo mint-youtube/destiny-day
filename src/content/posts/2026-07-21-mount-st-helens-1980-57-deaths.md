@@ -5,7 +5,7 @@ pubDate: 2026-07-21T07:24:00+09:00
 author: ""
 category: ""
 tags: ["세인트헬렌스", "세인트헬렌스 화산 폭발", "데이비드 존스턴", "해리 트루먼", "1980년 화산 재난", "측면 폭발", "화산 감시", "미국 최악 화산"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=yoNX--d6z1A"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-21-mount-st-helens-1980-57-deaths/scene-2_img_2.png"
 draft: false
 ---
