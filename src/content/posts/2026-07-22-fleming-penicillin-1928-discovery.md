@@ -5,7 +5,7 @@ pubDate: 2026-07-22T07:00:00+09:00
 author: ""
 category: ""
 tags: ["페니실린 발견", "알렉산더 플레밍", "항생제 역사", "페니실린 원리", "플로리 체인", "노벨상", "의학의 역사", "곰팡이 항생제"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=dGwp9gS30Hc"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-22-fleming-penicillin-1928-discovery/scene-2_img_2.png"
 draft: false
 ---
