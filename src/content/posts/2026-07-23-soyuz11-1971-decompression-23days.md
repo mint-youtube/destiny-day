@@ -5,7 +5,7 @@ pubDate: 2026-07-23T20:27:00+09:00
 author: ""
 category: ""
 tags: ["소유즈 11호", "소유즈 11호 사고", "우주정거장 살류트", "우주 감압 사고", "우주비행사 사망", "냉전 우주경쟁", "여압복", "우주 미스터리"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=7P-EFpMk_vA"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-23-soyuz11-1971-decompression-23days/scene-9_img_2.png"
 draft: false
 ---
