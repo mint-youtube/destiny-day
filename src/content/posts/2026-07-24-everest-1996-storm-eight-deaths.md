@@ -5,7 +5,7 @@ pubDate: 2026-07-24T22:20:00+09:00
 author: ""
 category: ""
 tags: ["1996 에베레스트 참사", "에베레스트 사고", "죽음의 지대", "롭 홀", "벡 웨더스", "히말라야 등반", "상업 등반", "산악 사고"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=H-KTphbss5Y"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-24-everest-1996-storm-eight-deaths/scene-9_img_2.png"
 draft: false
 ---
