@@ -5,7 +5,7 @@ pubDate: 2026-07-26T16:32:00+09:00
 author: ""
 category: ""
 tags: ["디아틀로프 고개 사건", "디아틀로프 패스", "우랄 산맥 미스터리", "미제 사건", "죽음의 산", "슬래브 눈사태", "1959년 사건", "미스터리 실화"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=TrOTjnG50v8"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-26-dyatlov-pass-1959-barefoot-night/scene-5_img_2.png"
 draft: false
 ---
