@@ -5,7 +5,7 @@ pubDate: 2026-07-29T17:36:00+09:00
 author: ""
 category: ""
 tags: ["섀클턴", "인듀어런스호", "남극탐험", "생존실화", "극지탐험", "리더십", "엘리펀트섬"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=fMhWG1izQzU"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-29-shackleton-endurance-1915-ice-crush/scene-2_img_2.png"
 draft: false
 ---
