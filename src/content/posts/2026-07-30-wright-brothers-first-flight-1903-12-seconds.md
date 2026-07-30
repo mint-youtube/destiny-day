@@ -5,7 +5,7 @@ pubDate: 2026-07-30T17:15:00+09:00
 author: ""
 category: ""
 tags: ["라이트형제", "최초비행", "키티호크", "플라이어호", "항공역사", "동력비행", "발명이야기"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=rLFJ6UHGw7g"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-30-wright-brothers-first-flight-1903-12-seconds/scene-2_img_2.png"
 draft: false
 ---
