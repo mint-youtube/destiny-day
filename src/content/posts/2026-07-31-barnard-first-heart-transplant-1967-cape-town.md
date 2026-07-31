@@ -5,7 +5,7 @@ pubDate: 2026-07-31T10:11:00+09:00
 author: ""
 category: ""
 tags: ["심장이식", "세계최초", "크리스티안바너드", "워시칸스키", "의학사", "케이프타운", "장기기증"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=2DwcvZUedxE"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-07-31-barnard-first-heart-transplant-1967-cape-town/scene-2_img_2.png"
 draft: false
 ---
