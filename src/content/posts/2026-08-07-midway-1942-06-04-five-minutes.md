@@ -5,7 +5,7 @@ pubDate: 2026-08-07T16:05:00+09:00
 author: ""
 category: ""
 tags: ["미드웨이해전", "태평양전쟁", "제2차세계대전", "항공모함", "야마모토", "암호해독", "나구모", "세계사"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/watch?v=tvaC6eVJJOE"
 heroImage: "https://assets.dailynote.blog/destiny-day/2026-08-07-midway-1942-06-04-five-minutes/scene-2_img_2.png"
 draft: false
 ---
